@@ -1,6 +1,9 @@
 ---
 name: legal-risk-assessment
-description: Assess and classify legal risks using a severity-by-likelihood framework with escalation criteria. Use when evaluating contract risk, assessing deal exposure, classifying issues by severity, or determining whether a matter needs senior counsel or outside legal review.
+description: Assess and classify legal risks using severity-by-likelihood framework.
+command: legal-risk-assessment
+entry: scripts/legal_risk_main.py
+args_hint: "<contract or issue>"
 ---
 
 # Legal Risk Assessment Skill

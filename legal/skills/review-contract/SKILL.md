@@ -1,7 +1,9 @@
 ---
 name: review-contract
-description: Review a contract against your organization's negotiation playbook — flag deviations, generate redlines, provide business impact analysis. Use when reviewing vendor or customer agreements, when you need clause-by-clause analysis against standard positions, or when preparing a negotiation strategy with prioritized redlines and fallback positions.
-argument-hint: "<contract file or text>"
+description: Review contracts against negotiation playbook — flag deviations, generate redlines, business impact.
+args_hint: "<contract file or text>"
+command: review-contract
+entry: scripts/review_contract_main.py
 ---
 
 # /review-contract -- Contract Review Against Playbook

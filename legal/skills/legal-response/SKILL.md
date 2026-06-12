@@ -1,7 +1,9 @@
 ---
 name: legal-response
-description: Generate a response to a common legal inquiry using configured templates, with built-in escalation checks for situations that shouldn't use a templated reply. Use when responding to data subject requests, litigation hold notices, vendor legal questions, NDA requests from business teams, or subpoenas.
-argument-hint: "[inquiry-type]"
+description: Generate templated legal responses with escalation checks — data requests, litigation holds, NDAs.
+args_hint: "[inquiry-type]"
+command: legal-response
+entry: scripts/legal_response_main.py
 ---
 
 # /legal-response -- Generate Response from Templates

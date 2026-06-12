@@ -1,7 +1,9 @@
 ---
 name: digest
-description: Generate a daily or weekly digest of activity across all connected sources. Use when catching up after time away, starting the day and wanting a summary of mentions and action items, or reviewing a week's decisions and document updates grouped by project.
-argument-hint: "[--daily | --weekly | --since <date>]"
+description: Generate daily/weekly digest of activity across all connected sources — mentions, decisions, document updates.
+args_hint: "[--daily | --weekly | --since <date>]"
+command: digest
+entry: scripts/digest_main.py
 ---
 
 # Digest Command

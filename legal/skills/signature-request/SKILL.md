@@ -1,7 +1,9 @@
 ---
 name: signature-request
-description: Prepare and route a document for e-signature — run a pre-signature checklist, configure signing order, and send for execution. Use when a contract is finalized and ready to sign, when verifying entity names, exhibits, and signature blocks before sending, or when setting up an envelope with sequential or parallel signers.
-argument-hint: "<document or contract to send>"
+description: Prepare and route documents for e-signature with pre-signature checklist.
+args_hint: "<document or contract>"
+command: signature-request
+entry: scripts/signature_request_main.py
 ---
 
 # /signature-request -- E-Signature Routing

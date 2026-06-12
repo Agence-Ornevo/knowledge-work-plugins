@@ -1,7 +1,9 @@
 ---
 name: reconciliation
-description: Reconcile accounts by comparing GL balances to subledgers, bank statements, or third-party data. Use when performing bank reconciliations, GL-to-subledger recs, intercompany reconciliations, or identifying and categorizing reconciling items.
-argument-hint: "<account> [period]"
+description: Reconcile accounts — bank, GL-to-subledger, intercompany, categorize reconciling items.
+args_hint: "<account> [period]"
+command: reconciliation
+entry: scripts/reconciliation_main.py
 ---
 
 # Reconciliation

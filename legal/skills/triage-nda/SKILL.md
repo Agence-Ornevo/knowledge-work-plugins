@@ -1,7 +1,9 @@
 ---
 name: triage-nda
-description: Rapidly triage an incoming NDA and classify it as GREEN (standard approval), YELLOW (counsel review), or RED (full legal review). Use when a new NDA arrives from sales or business development, when screening for embedded non-solicits, non-competes, or missing carveouts, or when deciding whether an NDA can be signed under standard delegation.
-argument-hint: "<NDA file or text>"
+description: Rapidly triage NDAs — classify GREEN/YELLOW/RED for approval delegation.
+args_hint: "<NDA file or text>"
+command: triage-nda
+entry: scripts/triage_nda_main.py
 ---
 
 # /triage-nda -- NDA Pre-Screening

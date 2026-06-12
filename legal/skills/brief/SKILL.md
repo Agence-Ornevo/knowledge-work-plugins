@@ -1,7 +1,9 @@
 ---
 name: brief
-description: Generate contextual briefings for legal work — daily summary, topic research, or incident response. Use when starting your day and need a scan of legal-relevant items across email, calendar, and contracts, when researching a specific legal question across internal sources, or when a developing situation (data breach, litigation threat, regulatory inquiry) needs rapid context.
-argument-hint: "[daily | topic <query> | incident]"
+description: Generate contextual legal briefings — daily summary, topic research, or incident response.
+args_hint: "[daily | topic <query> | incident]"
+command: legal-brief
+entry: scripts/legal_brief_main.py
 ---
 
 # /brief -- Legal Team Briefing

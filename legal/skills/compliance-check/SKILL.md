@@ -1,7 +1,9 @@
 ---
 name: compliance-check
-description: Run a compliance check on a proposed action, product feature, or business initiative, surfacing applicable regulations, required approvals, and risk areas. Use when launching a feature that touches personal data, when marketing or product proposes something with regulatory implications, or when you need to know which approvals and jurisdictional requirements apply before proceeding.
-argument-hint: "<action or initiative to check>"
+description: Run compliance check on proposed actions — applicable regulations, required approvals, risk areas.
+args_hint: "<action or initiative to check>"
+command: compliance-check
+entry: scripts/compliance_check_main.py
 ---
 
 # /compliance-check -- Compliance Review

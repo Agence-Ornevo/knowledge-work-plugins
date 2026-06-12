@@ -1,6 +1,9 @@
 ---
 name: meeting-briefing
-description: Prepare structured briefings for meetings with legal relevance and track resulting action items. Use when preparing for contract negotiations, board meetings, compliance reviews, or any meeting where legal context, background research, or action tracking is needed.
+description: Prepare structured legal briefings for meetings and track action items.
+command: meeting-briefing
+entry: scripts/meeting_brief_main.py
+args_hint: "[meeting type] [context]"
 ---
 
 # Meeting Briefing Skill

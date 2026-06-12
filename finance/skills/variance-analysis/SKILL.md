@@ -1,7 +1,9 @@
 ---
 name: variance-analysis
-description: Decompose financial variances into drivers with narrative explanations and waterfall analysis. Use when analyzing budget vs. actual, period-over-period changes, revenue or expense variances, or preparing variance commentary for leadership.
-argument-hint: "<line item> <period> vs <comparison>"
+description: Decompose financial variances into drivers with waterfall analysis and narrative.
+args_hint: "<line item> <period> vs <comparison>"
+command: variance-analysis
+entry: scripts/variance_analysis_main.py
 ---
 
 # Variance Analysis
